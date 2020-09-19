@@ -3,7 +3,7 @@ Simple Python Script Assembler
 
 ### this script use http://shell-storm.org for assemble
 
-## Arch Support :
+### Arch Support :
 - [x] ARM
 - [x] ARM THUMB
 - [x] ARM 64
@@ -16,3 +16,10 @@ Simple Python Script Assembler
 - [x] Intel 32
 - [x] Intel 64
 
+## Install : 
+```
+git clone https://github.com/megabeez/pyasmblr
+pip install -r requirements.txt
+```
+
+#### ScreenShot 1

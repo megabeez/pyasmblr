@@ -63,7 +63,7 @@ def help_banner():
 |        pyasmblr -o [FILE] => OutPut File               |
 |        pyasmblr -i        => Interactive Shell         |
 |        pyasmblr -l        => List Support Arch         |
-|        pyasmblr -a        => Set Arch(def intel32)     |
+|        pyasmblr -a        => Set Arch                  |
 |                                                        |
 | example :                                              |
 |        pyasmblr -f file_inp.asm -o file_out.raw -a arm |

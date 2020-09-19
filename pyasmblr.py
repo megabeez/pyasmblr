@@ -85,8 +85,7 @@ def shelli():
 	def_arch='intel32'
 	while True:
 		command=raw_input('>>> ')
-		command=command.strip()
-		if command in ['archl','archc','archs','help','quit']:
+		if command.split()[0] in ['archl','archc','archs','help','quit']:
 			if command=='archl':
 				show_arch_list()
 			if command=='archc':
